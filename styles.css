@@ -80,3 +80,31 @@ transition: 0.3s;
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #level-title {
+    font-size: 4rem;
+    margin-top: 20px;
+  }
+  
+  #your-level {
+    font-size: 3rem;
+    margin: 2%;
+  }
+  
+  #text-detail {
+    font-size: 2rem;
+    margin: 2%;
+  }
+  
+  .playButton {
+    font-size: 2rem;
+  }
+}
